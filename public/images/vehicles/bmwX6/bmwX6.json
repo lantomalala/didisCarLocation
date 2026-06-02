@@ -1,0 +1,176 @@
+{
+  "id": "bmw-x6-e71-tete-cortege-001",
+  "nom": "BMW X6 E71 - Tête de Cortège Prestige",
+  "slug": "bmw-x6-e71-tete-cortege",
+  "marque": "BMW",
+  "modele": "X6 E71",
+  "categorie": "Tête de cortège",
+  "type_vehicule": "SUV Coupé",
+  "annee_modele": "2013",
+  "couleur_exterieure": "Noir métallisé",
+  "couleur_interieure": "Cuir beige",
+  "places": 5,
+
+  "bio": "Un SUV premium au design sportif et prestigieux, idéal pour ouvrir un cortège de mariage avec élégance et caractère.",
+
+  "description": "La BMW X6 E71 est un véhicule de prestige qui combine luxe, puissance et confort. Grâce à sa silhouette imposante et son allure haut de gamme, elle constitue un excellent choix pour les mariages, les événements VIP et les cortèges officiels. Préparée avec soin avant chaque prestation, elle garantit une arrivée remarquable et des souvenirs mémorables.",
+
+  "detail": {
+    "etat": "Excellent",
+    "climatisation": true,
+    "vitres_teintees": true,
+    "direction_assistee": true,
+    "sieges_cuir": true,
+    "sieges_electriques": true,
+    "audio_bluetooth": true,
+    "prise_usb": true,
+    "camera_recul": true,
+    "affichage_tete_haute": true,
+    "radar_stationnement": true,
+    "transmission_integrale": true,
+    "decoration_florale_personnalisable": true,
+    "chauffeur_professionnel": true,
+    "carburant_inclus": true
+  },
+
+  "photos": [
+    {
+      "url": "./image_001.jpg",
+      "titre": "Vue avant du véhicule",
+      "principal": true
+    }, 
+    {
+      "url": "./image_002.jpg",
+      "titre": "Vue arrière du véhicule",
+      "principal": false
+    },
+    {
+      "url": "./image_003.jpg",
+      "titre": "Intérieur en cuir beige",
+      "principal": false
+    },
+    {
+      "url": "./image_004.jpg",
+      "titre": "Décoration florale personnalisée",
+      "principal": false
+    },
+    {
+      "url": "./image_005.jpg",
+      "titre": "Chauffeur en tenue professionnelle",
+      "principal": false
+    },
+    {
+      "url": "./image_006.jpg",
+      "titre": "Vue latérale du véhicule",
+      "principal": false
+    }
+  ],
+
+  "tarification": {
+    "devise": "MGA",
+    "prix_depart": 450000,
+    "prix_demi_journee": 650000,
+    "prix_journee_complete": 900000,
+    "heure_supplementaire": 80000,
+    "deplacement_hors_zone": "Sur devis"
+  },
+
+  "contrats_deja_pris_comme_tete_cortege": [
+    {
+      "reference": "TC-2025-021",
+      "type_evenement": "Mariage",
+      "date": "2025-02-08",
+      "lieu": "Antananarivo"
+    },
+    {
+      "reference": "TC-2025-034",
+      "type_evenement": "Mariage",
+      "date": "2025-06-14",
+      "lieu": "Antsirabe"
+    },
+    {
+      "reference": "TC-2025-047",
+      "type_evenement": "Mariage VIP",
+      "date": "2025-11-22",
+      "lieu": "Toamasina"
+    }
+  ],
+
+  "services_inclus": [
+    "Chauffeur en tenue professionnelle",
+    "Décoration florale standard",
+    "Nettoyage complet avant prestation",
+    "Carburant inclus",
+    "Assistance pendant toute la durée de la prestation",
+    "Coordination avec les organisateurs"
+  ],
+
+  "options": [
+    {
+      "nom": "Décoration florale premium",
+      "prix": 150000
+    },
+    {
+      "nom": "Rubans personnalisés",
+      "prix": 75000
+    },
+    {
+      "nom": "Plaque personnalisée des mariés",
+      "prix": 50000
+    },
+    {
+      "nom": "Drone vidéo du cortège",
+      "prix": 250000
+    }
+  ],
+
+  "zone_intervention": [
+    "Antananarivo",
+    "Ambohidratrimo",
+    "Antsirabe",
+    "Toamasina",
+    "Fianarantsoa"
+  ],
+
+  "disponibilite": {
+    "statut": "Disponible",
+    "reservation_minimum_jours": 7
+  },
+
+  "assurance": {
+    "assurance_transport": true,
+    "passagers_couverts": true
+  },
+
+  "chauffeur": {
+    "experience_annees": 10,
+    "permis_valide": true,
+    "tenue_formelle": true
+  },
+
+  "avis": {
+    "note_moyenne": 4.9,
+    "nombre_avis": 31
+  },
+
+  "seo": {
+    "title": "BMW X6 E71 - Location Tête de Cortège Mariage",
+    "description": "Réservez une BMW X6 E71 avec chauffeur pour assurer la tête de votre cortège de mariage à Madagascar."
+  },
+
+  "contact": {
+    "telephone": "+261 XX XX XXX XX",
+    "email": "contact@transport-prestige.mg",
+    "whatsapp": "+261 XX XX XXX XX"
+  },
+
+  "statistiques": {
+    "nombre_mariages_realises": 36,
+    "nombre_total_locations": 58,
+    "taux_satisfaction": 99
+  },
+
+  "date_creation": "2026-06-02T08:00:00Z",
+  "actif": true,
+  "mis_en_avant": true
+}

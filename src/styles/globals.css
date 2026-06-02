@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-luxury-gold text-white;
+  }
+}
+
+@layer components {
+  /* Container utilities */
+  .container-tight {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Transitions */
+  .transition-smooth {
+    @apply transition-all duration-400 ease-out;
+  }
+
+  .transition-gold {
+    @apply transition-colors duration-300;
+  }
+}
+
+/* Custom utilities for luxury aesthetic */
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), serif;
+}

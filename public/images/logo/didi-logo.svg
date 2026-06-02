@@ -1,0 +1,27 @@
+<svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
+  <!-- Car body outline -->
+  <path d="M 20 50 L 30 30 L 90 30 L 100 50 Z" stroke="#2D2D2D" stroke-linejoin="round"/>
+  
+  <!-- Windshield -->
+  <rect x="35" y="32" width="50" height="12" fill="#E8DCC8" stroke="#2D2D2D" stroke-linejoin="round" opacity="0.6"/>
+  
+  <!-- Left headlight -->
+  <circle cx="28" cy="42" r="5" fill="none" stroke="#2D2D2D"/>
+  
+  <!-- Right headlight -->
+  <circle cx="92" cy="42" r="5" fill="none" stroke="#2D2D2D"/>
+  
+  <!-- Grille -->
+  <rect x="50" y="48" width="20" height="4" fill="#2D2D2D"/>
+  
+  <!-- Left wheel -->
+  <circle cx="35" cy="60" r="8" fill="none" stroke="#2D2D2D" stroke-width="2"/>
+  <circle cx="35" cy="60" r="4" fill="#2D2D2D"/>
+  
+  <!-- Right wheel -->
+  <circle cx="85" cy="60" r="8" fill="none" stroke="#2D2D2D" stroke-width="2"/>
+  <circle cx="85" cy="60" r="4" fill="#2D2D2D"/>
+  
+  <!-- Gold accent stripe -->
+  <path d="M 25 48 L 95 48" stroke="#D4A574" stroke-width="1.5"/>
+</svg>
