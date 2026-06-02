@@ -219,7 +219,7 @@ export default async function VehicleDetail({ params }: Props) {
       )}
 
       {/* Final CTA */}
-      <Section className="bg-luxury-cream text-center">
+      <Section className="bg-luxury-cream text-center" title="Prêt à Réserver ?">
         <h2 className="font-playfair text-4xl text-luxury-dark-text mb-6">
           Prêt à réserver ?
         </h2>
