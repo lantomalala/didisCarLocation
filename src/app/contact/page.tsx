@@ -17,7 +17,7 @@ export default function Contact() {
         subtitle="Une question ? Besoin d'un devis ? Contactez-nous maintenant"
       />
 
-      <Section className="bg-luxury-cream">
+      <Section className="bg-luxury-cream" title="Contactez-Nous">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
