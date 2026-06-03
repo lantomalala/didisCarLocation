@@ -8,7 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "build:mobile": "npm run build && npx cap sync",
+    "ios": "npm run build:mobile && npx cap open ios",
+    "android": "npm run build:mobile && npx cap open android",
+    "sync:ios": "npx cap sync ios",
+    "sync:android": "npx cap sync android"
   },
   "dependencies": {
     "next": "^16.2.7",
@@ -16,6 +21,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "@capacitor/ios": "^8.3.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

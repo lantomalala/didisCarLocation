@@ -34,3 +34,18 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+
+# Capacitor
+node_modules/
+dist/
+*.log
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+
+# Android
+android/.gradle/
+android/local.properties
+android/*/build/
+
