@@ -7,9 +7,16 @@ import { vehicles } from '@/data/vehicles';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Accueil | Prestige Wedding Cars',
+  title: "Didi's Car Location - Accueil | Location Voitures Luxe Mariage",
   description:
-    'Découvrez notre collection de véhicules de prestige pour votre cortège de mariage à Madagascar.',
+    "Didi's Car Location - Découvrez notre collection de véhicules de prestige pour votre cortège de mariage à Madagascar. Service luxe, chauffeurs professionnels, décoration florale.",
+  keywords: "Didi's Car Location accueil, location voiture mariage Madagascar, véhicules de prestige, cortège mariage luxe, location BMW Madagascar",
+  openGraph: {
+    title: "Didi's Car Location - Location Voitures Prestige Mariage",
+    description: "Didi's Car Location: véhicules de luxe et cortèges de prestige pour les plus beaux jours de votre vie à Madagascar",
+    type: 'website',
+    url: 'https://didiscarloaction.mg',
+  },
 };
 
 export default function Home() {

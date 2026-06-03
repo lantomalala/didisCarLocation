@@ -3,9 +3,16 @@ import Hero from '@/components/Hero';
 import Section from '@/components/Section';
 
 export const metadata: Metadata = {
-  title: 'Services | Prestige Wedding Cars',
+  title: "Services | Didi's Car Location - Location Voiture Madagascar",
   description:
-    'Découvrez tous les services que nous proposons pour vos événements spéciaux.',
+    "Didi's Car Location - Découvrez tous nos services: cortèges de mariage, transports VIP, décoration florale, chauffeurs professionnels. Services adaptés à vos événements spéciaux à Madagascar.",
+  keywords: "Didi's Car Location services, cortège mariage, transport VIP, décoration voiture, chauffeur professionnel Madagascar, services événements",
+  openGraph: {
+    title: "Services | Didi's Car Location",
+    description: "Services complets de location et transport de prestige pour vos événements à Madagascar",
+    type: 'website',
+    url: 'https://didiscarloaction.mg/services',
+  },
 };
 
 export default function Services() {

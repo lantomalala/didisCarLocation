@@ -1,0 +1,21 @@
+# Robots.txt for Didi's Car Location
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json$
+Crawl-delay: 1
+Request-rate: 30/1m
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://didiscarloaction.mg/sitemap.xml

@@ -3,9 +3,16 @@ import Hero from '@/components/Hero';
 import Section from '@/components/Section';
 
 export const metadata: Metadata = {
-  title: 'À Propos | Prestige Wedding Cars',
+  title: "À Propos de Didi's Car Location | Excellence Mariage Madagascar",
   description:
-    'Découvrez notre histoire et notre engagement envers l\'excellence dans le service de location de voitures de prestige.',
+    "À Propos de Didi's Car Location - Découvrez notre histoire, notre engagement envers l'excellence et nos services de location de voitures de prestige pour mariages à Madagascar.",
+  keywords: "Didi's Car Location, à propos, histoire, location voiture prestige Madagascar, excellence service mariage",
+  openGraph: {
+    title: "À Propos de Didi's Car Location",
+    description: "Didi's Car Location: une décennie d'excellence dans la location de véhicules de prestige à Madagascar",
+    type: 'website',
+    url: 'https://didiscarloaction.mg/about',
+  },
 };
 
 export default function About() {

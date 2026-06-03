@@ -4,9 +4,16 @@ import Section from '@/components/Section';
 import { SITE_CONFIG } from '@/lib/config';
 
 export const metadata: Metadata = {
-  title: 'Contact | Prestige Wedding Cars',
+  title: "Contact | Didi's Car Location - Devis Location Voiture",
   description:
-    'Contactez-nous pour toute question ou pour réserver votre véhicule de prestige.',
+    "Didi's Car Location - Contactez-nous pour un devis, une question ou pour réserver votre véhicule de prestige. Réponse rapide, équipe disponible. Téléphone, email, WhatsApp.",
+  keywords: "Didi's Car Location contact, devis location voiture, réserver mariage, contacter Didi's, location voiture prestige Madagascar",
+  openGraph: {
+    title: "Nous Contacter | Didi's Car Location",
+    description: "Contactez Didi's Car Location pour vos besoins en location de véhicules de prestige",
+    type: 'website',
+    url: 'https://didiscarloaction.mg/contact',
+  },
 };
 
 export default function Contact() {

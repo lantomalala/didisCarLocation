@@ -4,9 +4,16 @@ import Section from '@/components/Section';
 import BookingForm from '@/components/BookingForm';
 
 export const metadata: Metadata = {
-  title: 'Réserver | Prestige Wedding Cars',
+  title: "Réservation | Didi's Car Location - Location Voiture Mariage",
   description:
-    'Effectuez votre réservation de voiture de prestige pour votre événement.',
+    "Didi's Car Location - Réservez dès maintenant votre voiture de prestige pour votre mariage à Madagascar. Processus simple, transparent et sécurisé. Chauffeurs professionnels inclus.",
+  keywords: "Didi's Car Location réservation, réserver voiture mariage, booking location voiture prestige, réservation facile Madagascar",
+  openGraph: {
+    title: "Réserver avec Didi's Car Location",
+    description: "Réservez facilement votre véhicule de prestige pour votre événement spécial",
+    type: 'website',
+    url: 'https://didiscarloaction.mg/booking',
+  },
 };
 
 export default function Booking() {
